@@ -1,0 +1,103 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://qas.qmetry.com/bank",
+      "type": "TestStepPass",
+      "duration": 2048000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear text.txtusername",
+      "type": "TestStepPass",
+      "duration": 549000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys Bob into text.txtusername",
+      "type": "TestStepPass",
+      "duration": 601000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear password.txtpassword",
+      "type": "TestStepPass",
+      "duration": 550000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys Bob into password.txtpassword",
+      "type": "TestStepPass",
+      "duration": 557000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on button.btnlogin",
+      "type": "TestStepPass",
+      "duration": 579000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear number.enteramountforcredit",
+      "type": "TestStepPass",
+      "duration": 566000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys 100 into number.enteramountforcredit",
+      "type": "TestStepPass",
+      "duration": 545000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on button.button11",
+      "type": "TestStepPass",
+      "duration": 554000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear number.enteramountfordebit",
+      "type": "TestStepPass",
+      "duration": 571000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys 100 into number.enteramountfordebit",
+      "type": "TestStepPass",
+      "duration": 542000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on button.button1",
+      "type": "TestStepPass",
+      "duration": 576000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on button.button",
+      "type": "TestStepPass",
+      "duration": 558000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify presence of button.btnlogin",
+      "type": "TestStepPass",
+      "duration": 518000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

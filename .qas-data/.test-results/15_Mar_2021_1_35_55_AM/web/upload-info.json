@@ -1,0 +1,106 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login TC 2",
+    "line": 17,
+    "id": "Login TC 2",
+    "tags": [],
+    "uri": "Web Suite 2/Login TC 2",
+    "testSuiteName": "Web Suite 2",
+    "type": "web",
+    "appName": "chrome",
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Login TC 2",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login TC 2",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://www.google.com",
+            "match": {
+              "location": "Login TC 2/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1929000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on xpath=//a[contains(text(),'About')]",
+            "match": {
+              "location": "Login TC 2/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on xpath=//a[contains(text(),'Products')]",
+            "match": {
+              "location": "Login TC 2/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on xpath=//a[contains(text(),'Commitments')]",
+            "match": {
+              "location": "Login TC 2/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "click on xpath=//a[contains(text(),'Stories')]",
+            "match": {
+              "location": "Login TC 2/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1700000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "click on xpath=//a[contains(text(),'Contact us')]",
+            "match": {
+              "location": "Login TC 2/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 655000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

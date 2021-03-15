@@ -1,0 +1,24 @@
+{
+  "reports": [
+    {
+      "name": "Web Suite 1",
+      "dir": ".qas-data/.test-results/15_Mar_2021_1_37_11_AM",
+      "startTime": 1615797431645
+    },
+    {
+      "name": "Web Suite 2",
+      "dir": ".qas-data/.test-results/15_Mar_2021_1_35_55_AM",
+      "startTime": 1615797355214
+    },
+    {
+      "name": "Web Suite 2",
+      "dir": ".qas-data/.test-results/15_Mar_2021_1_34_40_AM",
+      "startTime": 1615797280410
+    },
+    {
+      "name": "Web Suite 2",
+      "dir": ".qas-data/.test-results/15_Mar_2021_1_31_33_AM",
+      "startTime": 1615797093217
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "cssSelectorsEnabled": true,
+      "deviceName": "darwinPC",
+      "javascriptEnabled": true,
+      "platformName": "darwin",
+      "takesScreenshot": false,
+      "browserName": "chrome"
+    },
+    "browser-actual-capabilities": {
+      "takesScreenshot": "false",
+      "javascriptEnabled": "true",
+      "platformName": "darwin",
+      "deviceName": "darwinPC",
+      "cssSelectorsEnabled": "true",
+      "platform": "darwin"
+    },
+    "isfw-build-info": {},
+    "run-parameters": {
+      "resources": "resources/testdata",
+      "scenario.file.loc": "scenarios/web"
+    },
+    "execution-env-info": {
+      "host": "Saurabhs-MacBook-Pro.local",
+      "os.name": "macOS Big Sur",
+      "user.name": "saurabhpisal",
+      "os.version": "20.3.0"
+    }
+  },
+  "classes": [
+    "Web Suite 2"
+  ],
+  "startTime": 0,
+  "endTime": 0
+}

@@ -1,0 +1,47 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://www.google.com",
+      "type": "TestStepPass",
+      "duration": 1929000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'About')]",
+      "type": "TestStepPass",
+      "duration": 3280000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Products')]",
+      "type": "TestStepPass",
+      "duration": 1098000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Commitments')]",
+      "type": "TestStepPass",
+      "duration": 568000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Stories')]",
+      "type": "TestStepPass",
+      "duration": 1700000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Contact us')]",
+      "type": "TestStepPass",
+      "duration": 655000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

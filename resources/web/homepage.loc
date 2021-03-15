@@ -1,0 +1,24 @@
+homepage\ body = {\"locator\":\"tagName=body\",\"desc\":\"Body of Homepage\"}
+
+text.txtusername={"locator":"id=txtUsername","desc":"Input for txtUsername"}
+password.txtpassword={"locator":"id=txtPassword","desc":"txtPassword password"}
+button.btnlogin={"locator":"id=btnLogin","desc":"BUTTON btnLogin"}
+number.enteramountforcredit={"locator":"xpath=//div[2]/input","desc":"Enter amount for credit number"}
+button.button11={"locator":"xpath=//div[2]/span/button","desc":"BUTTON BUTTON"}
+number.enteramountfordebit={"locator":"xpath=//input","desc":"Enter amount for debit number"}
+button.button1={"locator":"xpath=//span/button","desc":"BUTTON BUTTON"}
+button.button={"locator":"xpath=//button","desc":"BUTTON BUTTON"}
+number.txtdeposite={"locator":"id=txtDeposite","desc":"txtDeposite number"}
+button.btndeposite={"locator":"id=btnDeposite","desc":"BUTTON btnDeposite"}
+number.txtwithdrawn={"locator":"id=txtWithdrawn","desc":"txtWithdrawn number"}
+button.btnwithdrawn={"locator":"id=btnWithdrawn","desc":"BUTTON btnWithdrawn"}
+text.search={"locator":"name=q","desc":"Input for Search"}
+div.div12={"locator":"xpath=//form/div[2]","desc":"Text DIV"}
+path.path1={"locator":"css=path","desc":"path path"}
+span.span={"locator":"xpath=//div[@id='yDmH0d']/c-wiz/div/div/c-wiz/div/div/ul/li/a/div/span","desc":"Text SPAN"}
+svg.svg1={"locator":"css=svg.h-c-header__company-logo-img.h-c-header__company-logo-img--standard","desc":"svg svg"}
+link.about={"locator":"xpath=//a[contains(text(),'About')]","desc":"Link for About"}
+link.products={"locator":"xpath=//a[contains(text(),'Products')]","desc":"Link for                 Products              "}
+link.commitments={"locator":"xpath=//a[contains(text(),'Commitments')]","desc":"Link for                                 Commitments                              "}
+link.stories={"locator":"xpath=//a[contains(text(),'Stories')]","desc":"Link for                 Stories              "}
+link.contactus={"locator":"xpath=//a[contains(text(),'Contact us')]","desc":"Link for Contact us  "}

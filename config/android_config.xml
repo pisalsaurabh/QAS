@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite">
+	<parameter name="scenario.file.loc" value="scenarios/android"></parameter>
+	<parameter name="env.resources" value="resources/testdata;resources/android"></parameter>
+	<parameter name="step.provider.pkg" value="steps;steps.android"></parameter>
+	<test name="Android Test" preserve-order="true">
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory2" />
+		</classes>
+	</test>
+</suite>

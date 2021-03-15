@@ -1,0 +1,61 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://www.google.com",
+      "type": "TestStepPass",
+      "duration": 1633000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear name=q",
+      "type": "TestStepPass",
+      "duration": 551000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys google into name=q",
+      "type": "TestStepPass",
+      "duration": 583000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And type Enter name=q",
+      "type": "TestStepPass",
+      "duration": 2031000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'About')]",
+      "type": "TestStepPass",
+      "duration": 12149000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Products')]",
+      "type": "TestStepPass",
+      "duration": 1100000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Commitments')]",
+      "type": "TestStepPass",
+      "duration": 567000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Stories')]",
+      "type": "TestStepPass",
+      "duration": 1789000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

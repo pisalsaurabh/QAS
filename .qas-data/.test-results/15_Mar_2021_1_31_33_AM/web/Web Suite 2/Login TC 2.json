@@ -1,0 +1,91 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://www.google.com",
+      "type": "TestStepPass",
+      "duration": 1775000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear name=q",
+      "type": "TestStepPass",
+      "duration": 555000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys google into name=q",
+      "type": "TestStepPass",
+      "duration": 584000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//form/div[2]",
+      "type": "TestStepPass",
+      "duration": 1826000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear name=q",
+      "type": "TestStepPass",
+      "duration": 547000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys google into name=q",
+      "type": "TestStepPass",
+      "duration": 600000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And type Enter name=q",
+      "type": "TestStepPass",
+      "duration": 1664000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on css=path",
+      "type": "TestStepPass",
+      "duration": 557000000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='yDmH0d']/c-wiz/div/div/c-wiz/div/div/ul/li/a/div/span",
+      "type": "TestStepFail",
+      "duration": 8084000000,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Name: NoSuchWindowError\r\nMessage: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\r\nStacktrace: NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\n\tat Object.throwDecodedError (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/error.js:550:15)\n\tat parseHttpResponse (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/http.js:565:13)\n\tat Executor.execute (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/http.js:491:26)\n\tat processTicksAndRejections (internal/process/task_queues.js:85:5)\n\tat async thenableWebDriverProxy.execute (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+          "type": "fail",
+          "duration": 8084000000,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And click on css=svg.h-c-header__company-logo-img.h-c-header__company-logo-img--standard",
+      "type": "TestStepFail",
+      "duration": 511000000,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Name: NoSuchWindowError\r\nMessage: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\r\nStacktrace: NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\n\tat Object.throwDecodedError (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/error.js:550:15)\n\tat parseHttpResponse (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/http.js:565:13)\n\tat Executor.execute (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/http.js:491:26)\n\tat processTicksAndRejections (internal/process/task_queues.js:85:5)\n\tat async thenableWebDriverProxy.execute (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/webdriver.js:700:17)",
+          "type": "fail",
+          "duration": 511000000,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

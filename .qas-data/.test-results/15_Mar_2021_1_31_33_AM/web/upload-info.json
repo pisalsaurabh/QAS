@@ -1,0 +1,160 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login TC 2",
+    "line": 17,
+    "id": "Login TC 2",
+    "tags": [],
+    "uri": "Web Suite 2/Login TC 2",
+    "testSuiteName": "Web Suite 2",
+    "type": "web",
+    "appName": "chrome",
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Login TC 2",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login TC 2",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Failed",
+        "tagName": [],
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://www.google.com",
+            "match": {
+              "location": "Login TC 2/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1775000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "clear name=q",
+            "match": {
+              "location": "Login TC 2/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 555000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "sendKeys google into name=q",
+            "match": {
+              "location": "Login TC 2/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 584000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on xpath=//form/div[2]",
+            "match": {
+              "location": "Login TC 2/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1826000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "clear name=q",
+            "match": {
+              "location": "Login TC 2/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "sendKeys google into name=q",
+            "match": {
+              "location": "Login TC 2/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "type Enter name=q",
+            "match": {
+              "location": "Login TC 2/61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1664000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 8,
+            "name": "click on css=path",
+            "match": {
+              "location": "Login TC 2/71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "click on xpath=//div[@id='yDmH0d']/c-wiz/div/div/c-wiz/div/div/ul/li/a/div/span",
+            "match": {
+              "location": "Login TC 2/81"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 8084000000,
+              "error_message": "Name: NoSuchWindowError\r\nMessage: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\r\nStacktrace: NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\n\tat Object.throwDecodedError (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/error.js:550:15)\n\tat parseHttpResponse (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/http.js:565:13)\n\tat Executor.execute (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/http.js:491:26)\n\tat processTicksAndRejections (internal/process/task_queues.js:85:5)\n\tat async thenableWebDriverProxy.execute (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/webdriver.js:700:17)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "click on css=svg.h-c-header__company-logo-img.h-c-header__company-logo-img--standard",
+            "match": {
+              "location": "Login TC 2/91"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 511000000,
+              "error_message": "Name: NoSuchWindowError\r\nMessage: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\r\nStacktrace: NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\n\tat Object.throwDecodedError (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/error.js:550:15)\n\tat parseHttpResponse (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/http.js:565:13)\n\tat Executor.execute (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/http.js:491:26)\n\tat processTicksAndRejections (internal/process/task_queues.js:85:5)\n\tat async thenableWebDriverProxy.execute (/Applications/QMetry Automation Studio.app/Contents/Resources/app/extensions/node_modules/selenium-webdriver/lib/webdriver.js:700:17)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

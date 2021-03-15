@@ -1,0 +1,27 @@
+{
+    "additionalFields": {
+        "android": {
+            "appactivity": "com.qmetry.bank.bankingapplication",
+            "apppackage": "com.qmetry.bank.bankingapplication.HomePageActivity"
+        },
+        "ios": {
+            "bundleid": "com.apple.mobileslideshow"
+        },
+        "web": {
+            "baseurl": "https://qas.qmetry.com/bank"
+        }
+    },
+    "framework": "cucumber",
+    "language": "java",
+    "projectSettings": {
+        "projectName": "QAS1",
+        "projectPath": "/Users/saurabhpisal/Documents/github"
+    },
+    "projectTypes": [
+        "web",
+        "android",
+        "ios"
+    ],
+    "key": "1RTDpw2TXqDHToG602g06UrKOH9+U7j3hWg/ok5jnsHJUF8pD6bnKOVegsC69f9mo5Gu8pDTQj8zSMAbpERKGwxjyu3U8lwnSGQQZ1WAlpU=",
+    "shareable": "sharedFunction"
+}

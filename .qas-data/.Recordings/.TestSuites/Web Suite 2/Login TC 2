@@ -1,0 +1,311 @@
+{
+    "steps": [
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://www.google.com",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "19",
+            "tsId": 16,
+            "testData": false,
+            "duration": 1929000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "link.about",
+            "eArray": [
+                [
+                    "xpath=//a[contains(text(),'About')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//a[contains(@href, 'https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//a",
+                    "xpath:position"
+                ],
+                [
+                    "css=a.MV3Tnb",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Store'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Gmail'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "link.about",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.about",
+            "elementDesc": "Link for About",
+            "indexColumn": "",
+            "tcId": "19",
+            "tsId": 16,
+            "testData": false,
+            "duration": 3280000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "link.products",
+            "eArray": [
+                [
+                    "xpath=//a[contains(text(),'Products')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//li[@id='tab-2']/a",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, './products/')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//li[2]/a",
+                    "xpath:position"
+                ],
+                [
+                    "css=a.header-link-products",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Commitments'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stories'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "link.products",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.products",
+            "elementDesc": "Link for \n                Products\n              ",
+            "indexColumn": "",
+            "tcId": "19",
+            "tsId": 16,
+            "testData": false,
+            "duration": 1098000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "link.commitments",
+            "eArray": [
+                [
+                    "xpath=//a[contains(text(),'Commitments')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//ul[@id='list-1']/li[3]/a",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, '../commitments/')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//li[3]/a",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stories'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='The Keyword'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "link.commitments",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.commitments",
+            "elementDesc": "Link for \n                                Commitments\n                              ",
+            "indexColumn": "",
+            "tcId": "19",
+            "tsId": 16,
+            "testData": false,
+            "duration": 568000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "link.stories",
+            "eArray": [
+                [
+                    "xpath=//a[contains(text(),'Stories')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//li[@id='tab-4']/a",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, '../stories/')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//li[4]/a",
+                    "xpath:position"
+                ],
+                [
+                    "css=a.header-link-stories",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Commitments'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='The Keyword'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='COVID-19 information and resources from Google'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "link.stories",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.stories",
+            "elementDesc": "Link for \n                Stories\n              ",
+            "indexColumn": "",
+            "tcId": "19",
+            "tsId": 16,
+            "testData": false,
+            "duration": 1700000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "link.contactus",
+            "eArray": [
+                [
+                    "xpath=//a[contains(text(),'Contact us')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//div[@id='footer-sitemap-about-content']/div/ul/li/a",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, '../contact-google/')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//div/div/ul/li/a",
+                    "xpath:position"
+                ],
+                [
+                    "css=ul.links-list > li > a",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='More about us'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Español'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investor relations'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Careers'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "link.contactus",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.contactus",
+            "elementDesc": "Link for \nContact us\n  ",
+            "indexColumn": "",
+            "tcId": "19",
+            "tsId": 16,
+            "testData": false,
+            "duration": 655000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "https://www.google.com",
+        "type": "web",
+        "selectBrowser": "chrome",
+        "selectDevice": "",
+        "isRemote": false,
+        "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+        "isDebugMode": false,
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        }
+    },
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": false,
+    "recordSessionType": "multiple",
+    "tags": [],
+    "shared": false,
+    "executionStatus": "Passed"
+}

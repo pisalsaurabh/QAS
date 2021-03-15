@@ -1,0 +1,210 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login TC",
+    "line": 15,
+    "id": "Login TC",
+    "tags": [],
+    "uri": "Web Suite 1/Login TC",
+    "testSuiteName": "Web Suite 1",
+    "type": "web",
+    "appName": "chrome",
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Login TC",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login TC",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://qas.qmetry.com/bank",
+            "match": {
+              "location": "Login TC/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "clear text.txtusername",
+            "match": {
+              "location": "Login TC/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "sendKeys Bob into text.txtusername",
+            "match": {
+              "location": "Login TC/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "clear password.txtpassword",
+            "match": {
+              "location": "Login TC/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 550000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "sendKeys Bob into password.txtpassword",
+            "match": {
+              "location": "Login TC/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "click on button.btnlogin",
+            "match": {
+              "location": "Login TC/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 579000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "clear number.enteramountforcredit",
+            "match": {
+              "location": "Login TC/61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 8,
+            "name": "sendKeys 100 into number.enteramountforcredit",
+            "match": {
+              "location": "Login TC/71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 545000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "click on button.button11",
+            "match": {
+              "location": "Login TC/81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "clear number.enteramountfordebit",
+            "match": {
+              "location": "Login TC/91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 571000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 11,
+            "name": "sendKeys 100 into number.enteramountfordebit",
+            "match": {
+              "location": "Login TC/101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 12,
+            "name": "click on button.button1",
+            "match": {
+              "location": "Login TC/111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 576000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 13,
+            "name": "click on button.button",
+            "match": {
+              "location": "Login TC/121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 558000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 14,
+            "name": "verify presence of button.btnlogin",
+            "match": {
+              "location": "Login TC/131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 518000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

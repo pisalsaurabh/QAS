@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "author": "saurabhpisal",
+        "description": "",
+        "groups": [],
+        "lineNo": 0,
+        "name": "Login TC",
+        "referece": "",
+        "resultFileName": "Login TC",
+        "testSuiteName": "Web Suite 1",
+        "sign": ""
+      },
+      "dependsOn": [],
+      "startTime": 0,
+      "duration": 9314000000,
+      "result": "pass",
+      "passPer": 0
+    }
+  ]
+}
